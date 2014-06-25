@@ -23,6 +23,8 @@ static const int GRID_COLUMNS = 10;
     [super onEnter];
     
     [self setupGrid];
+    int n = [self getGridCount];
+    
     
     // accept touches on the grid
     self.userInteractionEnabled = YES;
