@@ -23,7 +23,7 @@
     if (self) {
         _timer = [[CCTimer alloc] init];
         
-        //_grid = [[Grid alloc] init];
+        _grid = [[Grid alloc] init];
         
     }
     
@@ -33,6 +33,9 @@
 - (void)play
 {
     //this tells the game to call a method called 'step' every half second.
+    
+    NSLog(@"Count: %i", [_grid getGridCount]);
+    
     [self schedule:@selector(step) interval:0.5f];
 }
 

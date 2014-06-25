@@ -88,6 +88,10 @@ static const int GRID_COLUMNS = 10;
     
 }
 
+-(int)getGridCount
+{
+    return [_gridArray count];
+}
 
 -(void)evolveStep
 {

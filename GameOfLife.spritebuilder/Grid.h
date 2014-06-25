@@ -17,4 +17,6 @@
 - (void)countNeighbors;
 - (void)updateCreatures;
 
+-(int)getGridCount;
+
 @end
