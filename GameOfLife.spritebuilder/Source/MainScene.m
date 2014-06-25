@@ -9,5 +9,8 @@
 #import "MainScene.h"
 
 @implementation MainScene
-
+{
+    CCLabelTTF *_populationLabel;
+    CCLabelTTF *_generationLabel;
+}
 @end
