@@ -95,6 +95,8 @@ static const int GRID_COLUMNS = 10;
     return [_gridArray count];
 }
 
+
+
 -(void)evolveStep
 {
     
