@@ -34,7 +34,7 @@
 {
     //this tells the game to call a method called 'step' every half second.
     
-    NSLog(@"Count: %i", [_grid getGridCount]);
+    NSLog(@"CountX: %i", [_grid getGridCount]);
     
     [self schedule:@selector(step) interval:0.5f];
 }
